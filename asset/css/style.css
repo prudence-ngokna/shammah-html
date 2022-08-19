@@ -325,13 +325,16 @@ body{
 /*Titre*/
 .blog .blog_title h3{
     font-weight: 700;
-    font-size: 60px;
+    font-size: 53px;
     font-family: inter;
-    line-height: 70px;
+    line-height: 130px;
     text-align: center;
+    font-family: Inter;
+    text-transform: uppercase;
+    letter-spacing: -0.045em;
 }
 
-/*Articles1*/
+/*Articles block 1*/
 
 .blog .blog_infos .block_article1, .blog .blog_infos .block_article2 {
     display: flex;
@@ -341,11 +344,12 @@ body{
 
 .blog .blog_infos .block_article1 .article_a, .blog .blog_infos .block_article1 .article_b{
     width: 50%;
-    
 } 
+
 .blog .blog_infos .block_article1 .article_a{
     padding: 0px 50px 0px 0px;
 }
+
 
 .blog .blog_infos .block_article1{
     padding: 50px 0px 30px;
@@ -414,18 +418,20 @@ body{
 
 }
 
-/*Articles2*/
+/*Articles block 2*/
 
 .blog .blog_infos .block_article2 .article_c, .blog .blog_infos .block_article2 .article_d{
     width: 50%; 
+   
 } 
 
 .blog .blog_infos .block_article2 .article_c{
     padding: 0px 50px 0px 0px;
 }
 
+
 .blog .blog_infos .block_article2{
-    padding: 0px 0px 89px;
+    padding: 0px 0px 50px;
 }
 
 .blog .blog_infos .block_article2 .article_c .btn_article a{
@@ -495,6 +501,21 @@ body{
     letter-spacing: 0.105em;
 }
 
+.blog  .btn_follow{
+    display:flex;
+    margin: auto;
+    width: 10%;
+}
+
+.blog  .btn_follow .follow1 img{
+    width: 54%;
+}
+
+.blog  .btn_follow .follow2 img, .blog .btn_follow .follow3 img{
+    width: 56%;
+}
+
+
 /*image*/
 /*New-letter*/
 .blog_newletter{
@@ -505,19 +526,168 @@ body{
 
 .blog_newletter .content_blog .info_newletter a{
     font-weight: 700;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 30px;
     letter-spacing: -0.045em;
     color: #FFFFFF;
     font-family: Inter;
+    text-decoration: none;
 }
 
 .blog_newletter .content_blog .info_newletter p{
     font-weight: 700;
-    font-size: 28px;
-    line-height: 30px;
+    font-size: 15px;
+    line-height: 39px;
     letter-spacing: -0.045em;
     color: #FFFFFF;
     font-family: Inter;
 }
 
+.blog_newletter .content_blog .form_newletter .email input{
+    width: 22%;
+    border-radius: 8px ;
+    padding: 7px;
+    font-family: Inter;
+    border-color: #FFFFFF;
+    letter-spacing: -0.045em;
+}
+
+.blog_newletter .content_blog .form_newletter .btn_send button{
+    position: absolute;
+    left: 29%;
+    transform: translateY(-100%);
+    border: 1px solid #000000;
+    color: #FFFFFF;
+    background: #000000;
+    width: 8%;
+    padding: 8px;
+    border-radius: 8px;
+    letter-spacing: -0.045em;
+    font-family: Inter;
+}
+/*End blog*/
+
+/*FAQ*/
+/*title faq*/
+.faq .title_faq h3{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.045em;
+    text-transform: uppercase;
+}
+
+.faq .title_faq {
+    width: 31%;
+    margin: auto;
+}
+
+/*texte faq*/
+.faq .text_faq {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    
+}
+
+.faq .text_faq .text1 p, .faq .text_faq .text2 p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 26px;
+    text-align: justify;
+    letter-spacing: -0.045em;
+}
+
+.faq .text_faq .text1, .faq .text_faq .text2{
+    width: 50%;
+    padding: 36px;
+}
+
+.faq .text_faq .text1 p .question , .faq .text_faq .text2 p .question{
+   font-weight: bold;
+   font-size: 20px;
+}
+
+/*bouton faq*/
+.faq .follow_faq .btn_faq{
+    display: flex;
+    width: 5%;
+    margin: auto;
+    justify-content: space-between;
+    padding: 33px;
+}
+
+.faq .follow_faq .btn_faq img{
+    width: 13%;
+}
+
+/*contactez-nous*/
+.block_form_contact{
+    background: rgba(217, 217, 217, 0.15);
+}
+
+.block_form_contact .title_form h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 114px;
+    letter-spacing: -0.045em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.block_form_contact .form_contact form input{
+    width: 100%;
+    padding: 10px;
+    background: #E8E6E6;
+    border: none;
+    height: 16px;
+}
+
+.block_form_contact .form_contact form label{
+    margin-bottom: 7px;
+    font-weight: 400;
+}
+
+.block_form_contact .form_contact form textarea{
+    background: #E8E6E6;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Inter;
+    height: 195px; 
+    width: 103%;
+}
+
+.block_form_contact .form_contact form{
+    width: 624px;
+    display: flex;
+    flex-direction: column;
+    min-height: 83px;
+    margin: auto;
+}
+
+.block_form_contact .form_contact form button{
+    width: 100%;
+    height: 46px;
+    font-weight: 400;
+    font-size: 18px;
+    background: #FF0000;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    color: #FFFFFF
+}
+
+.block_form_contact .form_contact form .btn_envoyer{
+    padding: 22px;
+    margin: auto;
+    width: 19%;
+}
