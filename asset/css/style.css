@@ -567,6 +567,90 @@ body{
 }
 /*End blog*/
 
+/*Article*/
+.block_article .title_article h3{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 77px;
+    letter-spacing: -0.045em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.block_article .title_article{
+    padding: 50px;
+}
+
+.block_article .title_article .btn_fleche{
+    width: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block_article .title_article .btn_fleche .gauche{
+    position: absolute;
+    left: 8%;
+    transform: translatey(-108%);
+}
+
+.block_article .title_article .btn_fleche .droite{
+    position: absolute;
+    left: 87%;
+    transform: translatey(-108%);
+}
+
+.block_article .content_article{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 40px 0px 40px;
+}
+
+.block_article .content_article .text_article, .block_article .content_article .block_image_article{
+    width: 50%;
+}
+
+.block_article .content_article .text_article{
+    padding: 0px 45px 0px 0px;
+}
+
+.block_article .content_article .text_article .paragraph_article p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: justify;
+    letter-spacing: -0.045em;
+}
+
+.block_article .content_article .text_article .title h3{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 77px;
+    text-align: justify;
+    letter-spacing: -0.045em;
+    text-transform: uppercase;
+}
+
+.block_article .content_article .text_article .title h4{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: justify;
+    letter-spacing: -0.045em;
+    text-transform: uppercase;
+    border-bottom: 1px solid black;
+}
+
+
+
 /*FAQ*/
 /*title faq*/
 .faq .title_faq h3{
@@ -667,7 +751,7 @@ body{
 }
 
 .block_form_contact .form_contact form{
-    width: 624px;
+    max-width: 624px;
     display: flex;
     flex-direction: column;
     min-height: 83px;
@@ -795,4 +879,32 @@ body{
         width: 23%;
     }
     
+    /*FAQ*/
+
+    .faq .text_faq {
+        display: block;
+    }
+
+    .faq .text_faq .text1, .faq .text_faq .text2{
+        width: 100%;
+        padding: 0px;
+    }
+
+    .faq {
+        width: 100%;
+    }
+
+    .faq .title_faq h3{
+        font-size: 21px;
+        line-height: 35px;
+    }
+
+    .faq .title_faq{
+        width: 100%;
+        margin: auto;
+    }
+
+    .block_form_contact .form_contact form .btn_envoyer{
+        width: 30%;
+    }
 }
