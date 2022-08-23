@@ -641,12 +641,95 @@ body{
     font-family: Inter;
     font-style: normal;
     font-weight: 700;
-    font-size: 35px;
+    font-size: 39px;
     line-height: 50px;
     text-align: justify;
     letter-spacing: -0.045em;
     text-transform: uppercase;
     border-bottom: 1px solid black;
+}
+
+.block_article  .btn_follow{
+    display:flex;
+    margin: auto;
+    width: 10%;
+}
+
+.block_article  .btn_follow .follow1 img{
+    width: 54%;
+}
+
+.block_article  .btn_follow .follow2 img, .block_article .btn_follow .follow3 img{
+    width: 56%;
+}
+
+.block_article .content_article .block_image_article .article_c{
+    margin: 12px 0px 12px;
+}
+
+.block_article .content_article .block_image_article .article_b .btn_article a{
+    position: absolute;
+    text-transform: uppercase;
+    left: 54%;
+    transform: translateY(-338%);
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Inter;
+    text-align: justify;
+    line-height: 35px;
+    letter-spacing: -0.045em;
+}
+
+.block_article .content_article .block_image_article .article_b .btn_consulter a{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 35px;
+    text-transform: uppercase;
+    color: #000000;
+    font-family: Inter;
+    text-decoration: none;
+    left: 54%;
+    transform: translateY(-196%);
+    position: absolute;
+    border: 1px solid #000000;
+    width: 127px;
+    text-align: center;
+    letter-spacing: 0.105em;
+}
+
+.block_article .content_article .block_image_article .article_c .btn_article a{
+    position: absolute;
+    text-transform: uppercase;
+    left: 55%;
+    transform: translateY(-338%);
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Inter;
+    text-align: justify;
+    line-height: 35px;
+    letter-spacing: -0.045em;
+}
+
+
+.block_article .content_article .block_image_article .article_c .btn_consulter a{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 35px;
+    text-transform: uppercase;
+    color: #000000;
+    font-family: Inter;
+    text-decoration: none;
+    left: 55%;
+    transform: translateY(-202%);
+    position: absolute;
+    border: 1px solid #000000;
+    width: 127px;
+    text-align: center;
+    letter-spacing: 0.105em;
 }
 
 
